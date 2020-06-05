@@ -1,0 +1,87 @@
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 1em;
+    grid-auto-rows: minmax(100px, auto);
+    align-items: stretch;
+  }
+  
+
+
+  .contenedor div {
+    background: #ecf0f1;
+    padding: 1em;
+  }
+  
+  .contenedor div:hover {
+    border: 1px solid #f1c40f;
+  }
+.caja1 {
+    grid-column: 1/4;
+  }
+  
+  .caja2 {
+    grid-column: 4/7;
+    
+  }
+  .caja2 p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+  }
+  
+  .caja3 {
+    grid-column: 1/4;
+    grid-row: 2/4;
+  }
+  
+  .caja4 {
+    grid-column: 4/5;
+  }
+  
+  .caja5 {
+    grid-column: 5/6;
+  }
+  
+  .caja6 {
+    grid-column: 6/7;
+  }
+  
+  .caja7 {
+    grid-column: 4/5;
+  }
+  
+  .caja8 {
+    grid-column: 5/6;
+  }
+  
+  .caja9 {
+    grid-column: 6/7;
+  }
+  
+  .caja10 {
+    grid-column: 1/4;
+  }
+  
+  .caja11 {
+    grid-column: 4/7;
+  }
+  .caja13{
+      grid-column: 1/3;
+  }
+  .caja14{
+    grid-column: 3/5;
+  }
+  .caja15{
+    grid-column: 5/7;
+  }
+  #foto{
+    width: 650px;
+    height: 400px;
+      border-radius: 10px;
+  }
+  #facebook,#twitter,#instragram,#telefono,#gps,#correo{
+    width:60px;/*ancho*/
+    height:60px;/*alto*/
+    margin-left: 10px;
+    margin-bottom: 30px;
+  }

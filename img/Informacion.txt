@@ -1,0 +1,25 @@
+4 grit nada mas
+5 gritResponsivo
+-Agregar el icono
+-Usar git para que sea responsivo(hacer que corra en todos los dispositivos tanto escritorio,como celular)
+-Cajas
+-Con fotos e informacion de la practica 2
+-Miercoles 26 de febrero
+-Medidas en pixeles de pantallas estandares
+pantalla 1200px X 1024px     sacando promedio entre pantalla y tablet 1100 px (puntos de quiebre)
+tablet 1024px X 768 px       sacando promedio entre tablet y celular 800px (puntos de quiebre)
+celular 568px X 720px
+sacandole datos a la maquina los datos de la pantalla
+if(.grande){
+.caja1{}
+}
+if(.tableta){
+.caja1{}
+}
+@media only screen and(min-width:1px){ //si minimo como minimo tiene 1 pixel
+#pagina{  //cambiado cada caja el tamaño
+}
+}
+Optimizar la memoria se debe cambiar las imagenes tanto tamaño (grande,mediana,chica)haciedno que sea mas rapido la 
+pagina,cambiando la ruta de la imagen
+-Definir las cajas con los 2 puntos de quiebre con grit
